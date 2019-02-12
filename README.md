@@ -21,7 +21,7 @@ Meta repository for work on the DHIS2 poly-repo ecosystem
 > meta git update
 ```
 
-All the modern DHIS2 repositories should now be cloned (though you'll need to pull to actually get the code) in the following heirarchy:
+All the modern DHIS2 repositories should now be cloned (but no branch checked out) in the following heirarchy:
 
 ```
 - dhis2-meta
@@ -52,7 +52,7 @@ All the modern DHIS2 repositories should now be cloned (though you'll need to pu
 **Pull the latest in all repositories**
 
 ```sh
-> meta git pull origin master
+> meta git checkout origin/master
 ```
 
 You can now interact with each component independently (directories are autonomous)
