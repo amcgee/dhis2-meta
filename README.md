@@ -3,9 +3,11 @@ Meta repository for work on the DHIS2 poly-repo ecosystem
 
 ## Requirements
 
-The command-line tools [`meta`](https://github.com/mateodelnorte/meta), `git`, and `yarn` must be installed
+* `git` is required
+* [`meta`](https://github.com/mateodelnorte/meta) is uses to manage the meta-repo
+* `yarn` is optional (for work with client packages)
 
-## Install meta
+### Install meta
 
 ```sh
 > yarn global add meta
@@ -69,5 +71,15 @@ To add a project to meta:
 # I.E.
 > meta project add client/apps/analytics/dashboards https://github.com/dhis2/dashboards-app
 ```
+
+## TODO
+
+* [x] Scaffold meta-repo, add initial set of repositories
+* [ ] Add missing repositories (particularly QA, docs, Android)
+* [ ] Support inter-project linking for yarn-based repos
+* [ ] Script basic tasks like cloning and linking
+* [ ] Support multiple subsets (probably via multiple `.meta` files), hide 
+* [ ] Incorporate into `cli` for easy access
+* [ ] Support cross-repo testing
 
 Cheers!
