@@ -4,8 +4,8 @@ Meta repository for work on the DHIS2 poly-repo ecosystem
 ## Requirements
 
 * `git` is required
+* `yarn` is used to install `meta` and (optionally) to work with client packages
 * [`meta`](https://github.com/mateodelnorte/meta) is uses to manage the meta-repo
-* `yarn` is optional (for work with client packages)
 
 ### Install meta
 
