@@ -1,0 +1,15 @@
+client/apps/analytics/maps
+client/apps/analytics/dashboards
+client/apps/analytics/data-visualizer
+client/libs/ui
+client/libs/d2
+client/libs/d2-ui
+client/tools/deploy-build
+cli/core
+cli/packages
+cli/style
+server/core
+server/cluster
+client/libs/d2-i18n
+client/libs/d2-i18n-generate
+client/libs/d2-i18n-extract
