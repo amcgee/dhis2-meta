@@ -81,5 +81,6 @@ To add a project to meta:
 * [ ] Support multiple subsets (probably via multiple `.meta` files), hide 
 * [ ] Incorporate into `cli` for easy access
 * [ ] Support cross-repo testing
+* [ ] Use something better than `meta`?  It's really just the bootstrapping we're after...
 
 Cheers!
