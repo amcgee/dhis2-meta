@@ -4,12 +4,13 @@ Meta repository for work on the DHIS2 poly-repo ecosystem
 ## Requirements
 
 * `git` is required
-* `yarn` is used to install `meta` and (optionally) to work with client packages
-* [`meta`](https://github.com/mateodelnorte/meta) is uses to manage the meta-repo
+* `npx` is required to download and run the [`meta`](https://github.com/mateodelnorte/meta) CLI
 
-### Install meta
+To avoid the startup lag with `npx`, you may install `meta` globally with:
 
 ```sh
+> npm install -g meta
+OR
 > yarn global add meta
 ```
 
@@ -18,7 +19,7 @@ Meta repository for work on the DHIS2 poly-repo ecosystem
 **Initialize all repositories**
 
 ```sh
-> meta git update
+> ./clone.sh
 ```
 
 All the modern DHIS2 repositories should now be cloned (but no branch checked out) in the following heirarchy:
@@ -49,14 +50,14 @@ All the modern DHIS2 repositories should now be cloned (but no branch checked ou
     - style
 ```
 
-**Pull the latest in all repositories**
+**Run git commands on all repositories**
 
 ```sh
-> meta git checkout origin/master
+> npx meta git status
 ```
 
-You can now interact with each component independently (directories are autonomous)
-or run commands on some subset of the meta-repo with the `meta` command.
+You can also interact with each component independently (directories are autonomous)
+or run commands on some subset of the meta-repo with the `npx meta` command.
 
 See [the meta docs](https://github.com/mateodelnorte/meta) for more information.
 
@@ -67,9 +68,9 @@ Please open a pull request if there are modern, maintained repositories which sh
 To add a project to meta:
 
 ```sh
-> meta project add <dir> <url>
+> npx meta project add <dir> <url>
 # I.E.
-> meta project add client/apps/analytics/dashboards https://github.com/dhis2/dashboards-app
+> npx meta project add client/apps/analytics/dashboards https://github.com/dhis2/dashboards-app
 ```
 
 ## TODO

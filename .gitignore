@@ -21,7 +21,7 @@ client/apps/analytics/event-charts
 client/apps/core/maintenance
 client/apps/core/messaging
 client/apps/core/data-quality
-client/apps/core/interpretations
+client/apps/core/interpretation
 client/apps/core/user
 client/apps/core/settings
 client/apps/core/menu-management

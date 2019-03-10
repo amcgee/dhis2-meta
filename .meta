@@ -23,7 +23,7 @@
     "client/apps/core/maintenance": "https://github.com/dhis2/maintenance-app",
     "client/apps/core/messaging": "https://github.com/dhis2/messaging-app",
     "client/apps/core/data-quality": "https://github.com/dhis2/data-quality-app",
-    "client/apps/core/interpretations": "https://github.com/dhis2/interpretations-app",
+    "client/apps/core/interpretation": "https://github.com/dhis2/interpretation-app",
     "client/apps/core/user": "https://github.com/dhis2/user-app",
     "client/apps/core/settings": "https://github.com/dhis2/settings-app",
     "client/apps/core/menu-management": "https://github.com/dhis2/menu-management-app",
