@@ -78,7 +78,7 @@ To add a project to meta:
 * [x] Scaffold meta-repo, add initial set of repositories
 * [ ] Add missing repositories (particularly QA, docs, Android)
 * [ ] Support inter-project linking for yarn-based repos
-* [ ] Script basic tasks like cloning and linking
+* [x] Script basic tasks like cloning and linking
 * [ ] Support multiple subsets (probably via multiple `.meta` files), hide 
 * [ ] Incorporate into `cli` for easy access
 * [ ] Support cross-repo testing
