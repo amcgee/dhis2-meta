@@ -7,7 +7,7 @@
     "client/libs/d2": "https://github.com/dhis2/d2",
     "client/libs/d2-ui": "https://github.com/dhis2/d2-ui",
     "client/tools/deploy-build": "https://github.com/dhis2/deploy-build",
-    "cli/core": "https://github.com/dhis2/cli",
+    "cli/d2": "https://github.com/dhis2/cli",
     "cli/packages": "https://github.com/dhis2/cli-packages",
     "cli/style": "https://github.com/dhis2/cli-style",
     "server/core": "https://github.com/dhis2/dhis2-core",
@@ -41,6 +41,8 @@
     "client/apps/capture/capture": "https://github.com/dhis2/capture-app",
     "client/libs/gis-api": "https://github.com/dhis2/gis-api",
     "client/libs/maps-gl": "https://github.com/dhis2/maps-gl",
-    "client/apps/core-resource": "https://github.com/dhis2/core-resource-app"
+    "client/apps/core-resource": "https://github.com/dhis2/core-resource-app",
+    "cli/deploy-build": "https://github.com/dhis2/deploy-build",
+    "cli/engine": "https://github.com/dhis2/cli-helpers-engine.git"
   }
 }

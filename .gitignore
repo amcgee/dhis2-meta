@@ -5,7 +5,7 @@ client/libs/ui
 client/libs/d2
 client/libs/d2-ui
 client/tools/deploy-build
-cli/core
+cli/d2
 cli/packages
 cli/style
 server/core
@@ -40,3 +40,6 @@ client/apps/capture/capture
 client/libs/gis-api
 client/libs/maps-gl
 client/apps/core-resource
+scratch
+cli/deploy-build
+cli/engine
