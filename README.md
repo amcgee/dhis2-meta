@@ -1,10 +1,11 @@
 # dhis2-meta
+
 Meta repository for work on the DHIS2 poly-repo ecosystem
 
 ## Requirements
 
-* `git` is required
-* `npx` is required to download and run the [`meta`](https://github.com/mateodelnorte/meta) CLI
+- `git` is required
+- `npx` is required to download and run the [`meta`](https://github.com/mateodelnorte/meta) CLI
 
 To avoid the startup lag with `npx`, you may install `meta` globally with:
 
@@ -45,9 +46,11 @@ All the modern DHIS2 repositories should now be cloned (but no branch checked ou
     - core
     - cluster
   - cli
-    - core
+    - d2
     - packages
     - style
+    - helpers-engine
+    - deploy-build
 ```
 
 **Run git commands on all repositories**
@@ -75,13 +78,13 @@ To add a project to meta:
 
 ## TODO
 
-* [x] Scaffold meta-repo, add initial set of repositories
-* [ ] Add missing repositories (particularly QA, docs, Android)
-* [ ] Support inter-project linking for yarn-based repos
-* [x] Script basic tasks like cloning and linking
-* [ ] Support multiple subsets (probably via multiple `.meta` files), hide 
-* [ ] Incorporate into `cli` for easy access
-* [ ] Support cross-repo testing
-* [ ] Use something better than `meta`?  It's really just the bootstrapping we're after...
+- [x] Scaffold meta-repo, add initial set of repositories
+- [ ] Add missing repositories (particularly QA, docs, Android)
+- [ ] Support inter-project linking for yarn-based repos
+- [x] Script basic tasks like cloning and linking
+- [ ] Support multiple subsets (probably via multiple `.meta` files), hide
+- [ ] Incorporate into `cli` for easy access
+- [ ] Support cross-repo testing
+- [ ] Use something better than `meta`? It's really just the bootstrapping we're after...
 
 Cheers!

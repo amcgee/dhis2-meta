@@ -42,4 +42,4 @@ client/libs/maps-gl
 client/apps/core-resource
 scratch
 cli/deploy-build
-cli/engine
+cli/helpers-engine

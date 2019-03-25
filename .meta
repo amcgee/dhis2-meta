@@ -43,6 +43,6 @@
     "client/libs/maps-gl": "https://github.com/dhis2/maps-gl",
     "client/apps/core-resource": "https://github.com/dhis2/core-resource-app",
     "cli/deploy-build": "https://github.com/dhis2/deploy-build",
-    "cli/engine": "https://github.com/dhis2/cli-helpers-engine.git"
+    "cli/helpers-engine": "https://github.com/dhis2/cli-helpers-engine.git"
   }
 }
