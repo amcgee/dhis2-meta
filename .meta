@@ -47,6 +47,10 @@
     "docs/dev-portal": "https://github.com/dhis2/dhis2.github.io.git",
     "docs/dhis2": "https://github.com/dhis2/dhis2-docs.git",
     "frontend/libs/app-runtime": "https://github.com/dhis2/app-runtime",
-    "frontend/libs/ui-widgets": "https://github.com/dhis2/ui-widgets.git"
+    "frontend/libs/ui-widgets": "https://github.com/dhis2/ui-widgets.git",
+    "frontend/libs/d2-analysis": "https://github.com/dhis2/d2-analysis",
+    "cli/utils-docsite": "https://github.com/dhis2/cli-utils-docsite",
+    "cli/helpers-template": "https://github.com/dhis2/cli-helpers-template",
+    "frontend/tools/platform": "https://github.com/dhis2/app-platform"
   }
 }
