@@ -52,6 +52,7 @@
     "cli/utils-docsite": "https://github.com/dhis2/cli-utils-docsite",
     "cli/helpers-template": "https://github.com/dhis2/cli-helpers-template",
     "frontend/tools/platform": "https://github.com/dhis2/app-platform",
-    "frontend/apps/misc/android-settings": "https://github.com/dhis2/android-settings-app"
+    "frontend/apps/misc/android-settings": "https://github.com/dhis2/android-settings-app",
+    "frontend/libs/analytic": "https://github.com/dhis2/analytics"
   }
 }
